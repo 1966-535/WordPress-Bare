@@ -8,7 +8,7 @@ SOURCE_BRANCH="testGulp1"
 TARGET_BRANCH="testGulp2"
 RELEASE_ENG=""
 
-# Save some useful information
+# Save some useful information.
 REPO=`git config remote.origin.url`
 SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
 SHA=`git rev-parse --verify HEAD`
